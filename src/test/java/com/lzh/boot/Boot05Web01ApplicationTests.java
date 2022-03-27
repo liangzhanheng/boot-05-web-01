@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Boot05Web01ApplicationTests {
 
     @Test
-    void contextLoads() {
+   public void test(){
+        System.out.println("hello,git1");
+        System.out.println("hello,git2");
     }
 
 }
