@@ -1,0 +1,18 @@
+spring:
+  #路径增加前缀
+  mvc:
+#    static-path-pattern: /res/**
+
+  #开启页面表单的Rest功能，选择性开启
+    hiddenmethod:
+      filter:
+        enabled: true
+
+  #修改默认路径名
+  web:
+    resources:
+      static-locations: [classpath:/haha/]
+#   禁用静态资源
+#   web:
+#     resources:
+#       add-mappings: false

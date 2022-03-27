@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="${msg}">哈哈</h1><!--把域中的msg值拿进来--><!--根据th:text拿到域中动态文本的值，而不是哈哈-->
+<h2 >
+    <a href="www.lzh.com" th:href="${link}">去百度</a><!--根据th:href拿到域中动态链接的值，而不是www.lzh.com-->
+</h2>
+</body>
+</html>
